@@ -1,0 +1,29 @@
+.notfound {
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    line-height: 1.4;
+    margin-bottom: 200px;
+}
+
+.errorBox{
+    height: 200px;
+    line-height: 200px;
+}
+
+.errorCode{
+    font-family: 'Fredoka One', cursive;
+    font-size: 11em;
+    margin: 0px;
+    color: #53C225;
+    text-transform: uppercase;
+}
+
+.message{
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #222;
+    margin: 0;
+}

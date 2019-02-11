@@ -1,0 +1,91 @@
+{
+    "id": "101",
+    "title": "Name Of Quiz",
+    "organisation": "Name of organisation",
+    "category": "sampleQuiz",
+    "paperQuestions": [
+            {
+            "id": 1,
+            "question": "Anu",
+            "a": "New York Bulls",
+            "b": "Los Angeles Kings",
+            "c": "Golden State Warriros",
+            "d": "Huston Rocket",
+            "answer": "c"
+            },
+            {
+            "id": 2,
+            "question": "aaaect team name in NBA?",
+            "a": "New York Bulls",
+            "b": "Los Angeles Kings",
+            "c": "Golden State Warriros",
+            "d": "Huston Rocket",
+            "answer": "b"
+            },
+            {
+            "id": 3,
+            "question": "5 + 7 = ?",
+            "a": "10",
+            "b": "11",
+            "c": "12",
+            "d": "13",
+            "answer": "c"
+            },
+            {
+            "id": 4,
+            "question": "12 - 8 = ?",
+            "a": "1",
+            "b": "2",
+            "c": "3",
+            "d": "4",
+            "answer": "d"
+            },
+            {
+            "id": 5,
+            "question": "Which one is correct team name in NBA?",
+            "a": "New York Bulls",
+            "b": "Los Angeles Kings",
+            "c": "Golden State Warriros",
+            "d": "Huston Rocket",
+            "answer": "b"
+            },
+            {
+            "id": 6,
+            "question": "5 + 7 = ?",
+            "a": "10",
+            "b": "11",
+            "c": "12",
+            "d": "13",
+            "answer": "c"
+            },
+            {
+            "id": 7,
+            "question": "12 - 8 = ?",
+            "a": "1",
+            "b": "2",
+            "c": "3",
+            "d": "4",
+            "answer": "d"
+            },
+            {
+            "id": 8,
+            "question": "Which one is correct team name in NBA?",
+            "a": "New York Bulls",
+            "b": "Los Angeles Kings",
+            "c": "Golden State Warriros",
+            "d": "Huston Rocket",
+            "answer": "b"
+            },
+            {
+            "id": 9,
+            "question": "5 + 7 = ?",
+            "a": "10",
+            "b": "11",
+            "c": "12",
+            "d": "13",
+            "answer": "c"
+            }
+    ]
+}
+
+

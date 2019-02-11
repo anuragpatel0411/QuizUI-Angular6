@@ -1,0 +1,33 @@
+{
+    "type": "list of all the papers",
+    "exam": [
+        {
+            "id": "002",
+            "title": "Quiz",
+            "organisation": "Sample"
+        },
+        {
+            "id": "101",
+            "title": "ABC",
+            "organisation": "AAA"
+        },
+        {
+            "id": "102",
+            "title": "MNO",
+            "organisation": "mno"
+        },
+        {
+            "id": "103",
+            "title": "XYZ",
+            "organisation": "xyz"
+        },
+        {
+            "id": "106",
+            "title": "XYZ",
+            "organisation": "xyz"
+        }
+    ]
+            
+}
+
+

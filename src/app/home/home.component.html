@@ -1,0 +1,29 @@
+<div class="home" [hidden]="org">
+  <div class="infoBanner">
+    <h4 class="title">Online Quiz</h4>
+    <p>
+      We are providing you online quiz with instant result. We are providing you online quiz with instant result. We are providing you online quiz with instant result. 
+      We are providing you online quiz with instant result. We are providing you online quiz with instant result. 
+    </p>
+    <p>
+        We are providing you online quiz with instant result. We are providing you online quiz with instant result. We are providing you online quiz with instant result. 
+        We are providing you online quiz with instant result. We are providing you online quiz with instant result. 
+      </p>
+  </div>
+  <div class="listShow">
+    <h5 class="title">Active Quiz</h5>
+    <div>Choose Your Quiz:</div>
+    <div class="row">
+      <div *ngFor="let list of list.exam" class="col-sm-12 col-md-6 col-lg-3 col-xl-3 cardList">
+        <a routerLink="/{{list.organisation}}">
+          <div class="cards" (click)="org=list.organisation">
+            <div class="id">ID: {{list.id}}</div>
+            <div class="orgName">{{list.organisation}}</div>
+            <div class="titleQuiz">{{list.title}}</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>

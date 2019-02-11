@@ -1,0 +1,47 @@
+.home{
+    padding: 2px;
+}
+
+.infoBanner{
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+
+.title{
+    text-align: center;
+}
+
+.listShow{
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-top: 2px;
+}
+
+.cardList{
+    padding: 0px;
+}
+
+.row{
+    width: 100%
+}
+.cards{
+    background-color: #757575;
+    border-radius: 5px;
+    margin-left: 16px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.id{
+    font-weight: 500;
+}
+
+.orgName{
+
+}
+
+.titleQuiz{
+
+}
