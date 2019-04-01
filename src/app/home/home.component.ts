@@ -9,16 +9,13 @@ import { listLazyRoutes } from '@angular/compiler/src/aot/lazy_routes';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
-  org:string;
-  list: any;
+  listDetail: object;
   constructor(private http: HttpClient) { }
 
   ngOnInit() {
-    this.http.get('./../../assets/all.json')
-      .subscribe((list) => {
-        this.list = list;
+      this.http.get('./../../assets/all.json').subscribe((response) => {
+        this.listDetail = response;
+        console.log(this.listDetail);
       })
-    console.log(this.list);
   }
 }

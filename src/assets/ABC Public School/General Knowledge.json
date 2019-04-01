@@ -1,8 +1,8 @@
 {
-    "id": "101",
-    "title": "Name Of Quiz",
-    "organisation": "Name of organisation",
-    "category": "sampleQuiz",
+    "id": "001",
+    "title": "Quiz",
+    "organisation": "ABC Public School",
+    "category": "General Knowledge",
     "paperQuestions": [
             {
             "id": 1,

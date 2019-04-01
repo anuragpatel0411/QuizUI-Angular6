@@ -1,0 +1,28 @@
+{
+    "id": "002",
+    "title": "Technical Quiz",
+    "organisation": "XYZ College of Engineering",
+    "category": "Computer Science",
+    "paperQuestions": [
+            {
+            "id": 1,
+            "question": "1234664645646578465",
+            "a": "New York Bulls",
+            "b": "Los Angeles Kings",
+            "c": "Golden State Warriros",
+            "d": "Huston Rocket",
+            "answer": "c"
+            },
+            {
+            "id": 9,
+            "question": "5 + 7 = ?",
+            "a": "10",
+            "b": "11",
+            "c": "12",
+            "d": "13",
+            "answer": "c"
+            }
+    ]
+}
+
+

@@ -2,29 +2,14 @@
     "type": "list of all the papers",
     "exam": [
         {
-            "id": "002",
+            "id": "001",
             "title": "Quiz",
-            "organisation": "Sample"
+            "organisation": "ABC Public School"
         },
         {
-            "id": "101",
-            "title": "ABC",
-            "organisation": "AAA"
-        },
-        {
-            "id": "102",
-            "title": "MNO",
-            "organisation": "mno"
-        },
-        {
-            "id": "103",
-            "title": "XYZ",
-            "organisation": "xyz"
-        },
-        {
-            "id": "106",
-            "title": "XYZ",
-            "organisation": "xyz"
+            "id": "002",
+            "title": "Technical Quiz",
+            "organisation": "XYZ College of Engineering"
         }
     ]
             

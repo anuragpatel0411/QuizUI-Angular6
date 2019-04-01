@@ -1,0 +1,12 @@
+{
+    "type": "list of papers of Sample",
+    "id": "002",
+    "organisation": "XYZ College of Engineering",
+    "categories": [
+            "Computer Science",         
+            "Electrical"
+    ]
+            
+}
+
+

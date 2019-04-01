@@ -1,3 +1,7 @@
+.header{
+    width: 100%
+}
+
 .home{
     padding: 2px;
 }
@@ -13,35 +17,53 @@
     text-align: center;
 }
 
+.wishes{
+    font-style: italic;
+    font-size: 1.2rem;
+    font-weight: 450;
+}
+
 .listShow{
     background-color: #ffffff;
     border-radius: 5px;
     margin-top: 2px;
 }
 
-.cardList{
-    padding: 0px;
+.card{
+    width: 100%;
+    border: 2px solid #25747a;
+    border-radius: 4px;
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    background-color: #fbffff;
 }
 
-.row{
-    width: 100%
-}
-.cards{
-    background-color: #757575;
-    border-radius: 5px;
-    margin-left: 16px;
-    margin-top: 5px;
-    padding: 5px;
+a:hover{
+    text-decoration: none;
 }
 
-.id{
-    font-weight: 500;
+.cardID{
+    color: #38848a;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 1px solid #25747a;
+    background-color: #fbffff;
+    padding: 5px 10px;
 }
 
-.orgName{
-
+.cardDetail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    align-items: center;
+    padding: 10px 0;
 }
 
-.titleQuiz{
-
+.cardData{
+    color: #38848a  ;
+    font-size: 16px;
+    text-align: center;
 }

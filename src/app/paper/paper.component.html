@@ -2,11 +2,11 @@
   <div class="container">
     <div class="card" [hidden]="isQuestionShow">
       <div class="cardModal">
-        <div class="title">{{paper.organisation}}</div>
-        <div class="title">{{paper.title}}</div>
-        <div class="category">{{paper.category}}</div>
+        <div class="title">{{paper?.organisation}}</div>
+        <div class="title">{{paper?.title}}</div>
+        <div class="category">{{paper?.category}}</div>
         <form #questionTest="ngForm" novalidate>
-          <div *ngFor="let ques of paper.paperQuestions">
+          <div *ngFor="let ques of paper?.paperQuestions">
             <div>{{ques.id}}. {{ques.question}}</div>
             <div class="form-group options">
               <div class="form-check form-check-inline mr-1 option" *ngIf="ques.a">
@@ -48,12 +48,14 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-body text-center">
-          <h4>Total Question: {{paper.paperQuestions.length}}</h4>
+          <h4>Total Question: {{paper?.paperQuestions.length}}</h4>
           <h4>Total Answerd: {{totalAnswer}}</h4>
           <h4>Right Answer : {{rightAnswer}}</h4>
           <span>
             <button type="button" class="btn btnSubmit" (click)="checkAnswers()">Answers</button>
-            <button type="button" class="btn btn-outline-secondary btnClose" (click)="submitModal.hide()">Close</button>
+            <a [routerLink]="['/home']">
+              <button type="button" class="btn btn-outline-secondary btnClose">Close</button>
+            </a>
           </span>
         </div>
       </div>
@@ -66,13 +68,15 @@
           <td>Question No.</td>
           <td>Answer</td>
         </tr>
-        <tr  *ngFor="let ques of paper.paperQuestions" [style.color]="!ques.selected? '#ffbb00' :ques.selected == ques.answer ? '#00aa00' : '#ff0000'">
+        <tr  *ngFor="let ques of paper?.paperQuestions" [style.color]="!ques.selected? '#ffbb00' :ques.selected == ques.answer ? '#00aa00' : '#ff0000'">
           <td>{{ques.id}}</td>
           <td>({{ques.answer}})</td>
         </tr>
       </table>
       <div class="text-center">
-        <button type="button" class="btn btn-outline-secondary btnClose" (click)="HomePage()" style="margin-left: 17px;">Close</button>
+        <a [routerLink]="['/home']">
+          <button type="button" class="btn btn-outline-secondary btnClose " style="margin-left: 17px; float: left;">Close</button>
+        </a>
       </div>
     </div>
   </div>

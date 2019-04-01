@@ -1,12 +1,19 @@
-<router-outlet [hidden]="paperCat">
-  <div class="page">
-    <h2>{{categorie.organisation}}</h2>
-    <div *ngFor="let cat of categorie.categories" class="col-sm-12 col-md-6 col-lg-3 col-xl-3 cardList">
-      <a routerLink="./{{cat}}">
-        <div class="cards" (click)="paperCat=cat">
-          <div class="id">{{cat}}</div>
-        </div>
-      </a>
+<div>
+  <app-nav-bar></app-nav-bar>
+</div>
+<div class="page" [hidden]="paperCat">
+  <h2 class="title">{{categorie?.organisation}}</h2>
+  <div class="row">
+    <div *ngFor="let cat of categorie?.categories" class="col-sm-12">
+      <div *ngIf="categorie && categorie.categories">  
+        <a [routerLink]="['Paper',categorie.organisation,cat]">
+          <div class="card">
+            <div class="cardDetail">
+              <div class="cardData">{{cat}}</div>
+            </div>
+          </div> 
+        </a>
+      </div>
     </div>
   </div>
-</router-outlet>
+</div>
